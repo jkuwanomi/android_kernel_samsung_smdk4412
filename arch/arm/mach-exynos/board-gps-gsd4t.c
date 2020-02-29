@@ -6,6 +6,8 @@
 #include <plat/gpio-cfg.h>
 #include <mach/board-gps.h>
 
+#define	GPIO_GPS_PWR_EN	252
+
 static struct device *gps_dev;
 
 static int __init gps_gsd4t_init(void)
